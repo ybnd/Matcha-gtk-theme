@@ -33,10 +33,10 @@
 
 	/* Header bar */
 	--gnome-headerbar-color: #ccd7d4;
-	--gnome-headerbar-background: #1b2224;
+	--gnome-headerbar-background: #273235;
 	--gnome-headerbar-border-color: #14191B;
 	--gnome-headerbar-box-shadow: 0 1px rgba(255, 255, 255, 0.1) inset;
-	--gnome-inactive-headerbar-background: #1b2224;
+	--gnome-inactive-headerbar-background: #273235;
 	--gnome-inactive-headerbar-border-color: #14191B;
 	--gnome-inactive-headerbar-box-shadow: 0 1px rgba(255, 255, 255, 0.1) inset;
 
@@ -89,7 +89,7 @@
 	--gnome-entry-background: #ffffff;
 	--gnome-entry-border-color: #D9D9D9;
 	--gnome-entry-box-shadow: none;
-	--gnome-entry-color: #222222;
+	--gnome-entry-color: #273235;
 	--gnome-inactive-entry-background: #fdfdfd;
 	--gnome-inactive-entry-border-color: #dddddd;
 	--gnome-inactive-entry-box-shadow: none;
@@ -98,7 +98,7 @@
 	--gnome-private-urlbar-background: #e6c2ff;
 
 	--gnome-header-entry-color: #D3DAE3;
-	--gnome-header-entry-background: #222B2E;
+	--gnome-header-entry-background: #273235;
 	--gnome-header-entry-border-color: #14191B;
 	--gnome-header-inactive-entry-color: #d6d6d6;
 	--gnome-header-inactive-entry-background: #1E2629;

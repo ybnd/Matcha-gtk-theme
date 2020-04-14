@@ -5,8 +5,8 @@
   <description>Gedit material theme matched for matcha GTK theme.</description>
 
   <!-- Color Palette -->
-  <color name="matcha0"                     value="#1b2224" />
-  <color name="matcha1"                     value="#222b2e" />
+  <color name="matcha0"                     value="#273235" />
+  <color name="matcha1"                     value="#273235" />
   <color name="matcha2"                     value="#2eb398" />
   <color name="matcha3"                     value="#7e8e8c" />
   <color name="matcha4"                     value="#cfdcd8" />

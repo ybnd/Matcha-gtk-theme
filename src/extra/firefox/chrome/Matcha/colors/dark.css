@@ -13,10 +13,10 @@
 		--gnome-browser-before-load-background: #303b3e;
 
 		/* Toolbars */
-		--gnome-toolbar-background: #1b2224;
+		--gnome-toolbar-background: #273235;
 		--gnome-toolbar-color: #ccd7d4;
 		--gnome-toolbar-border-color: #14191B;
-		--gnome-inactive-toolbar-background: #1b2224;
+		--gnome-inactive-toolbar-background: #273235;
 		--gnome-inactive-toolbar-border-color: #14191B;
 
 		/* Sidebar */
@@ -24,9 +24,9 @@
 		--gnome-inactive-sidebar-background: #303b3e;
 
 		/* Popups */
-		--gnome-menu-background: #222b2e;
+		--gnome-menu-background: #273235;
 		--gnome-menu-border-color: #14191B;
-		--gnome-popover-background: #222b2e;
+		--gnome-popover-background: #273235;
 		--gnome-popover-border-color: #14191B;
 		--gnome-popover-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 		--gnome-popover-button-hover-background: #353f43;
@@ -37,7 +37,7 @@
 		--gnome-headerbar-background: #141A1B;
 		--gnome-headerbar-border-color: #0e1112;
 		--gnome-headerbar-box-shadow: inset 0 1px rgba(238, 238, 236, 0.07);
-		--gnome-inactive-headerbar-background: #1b2224;
+		--gnome-inactive-headerbar-background: #273235;
 		--gnome-inactive-headerbar-border-color: #14191B;
 		--gnome-inactive-headerbar-box-shadow: inset 0 1px rgba(238, 238, 236, 0.07);
 
@@ -87,7 +87,7 @@
 		--gnome-titlebutton-close-active-background: transparent;
 
 		/* Entries */
-		--gnome-entry-background: #222B2E;
+		--gnome-entry-background: #273235;
 		--gnome-entry-border-color: #14191B;
 		--gnome-entry-box-shadow: none;
 		--gnome-entry-color: #D3DAE3;
@@ -99,7 +99,7 @@
 		--gnome-private-urlbar-background: #25003e;
 
 		--gnome-header-entry-color: #D3DAE3;
-		--gnome-header-entry-background: #1b2224;
+		--gnome-header-entry-background: #273235;
 		--gnome-header-entry-border-color: #0e1112;
 		--gnome-header-inactive-entry-color: #d6d6d6;
 		--gnome-header-inactive-entry-background: #1E2629;
@@ -107,7 +107,7 @@
 
 		/* Switch */
 		--gnome-switch-background: #282828;
-		--gnome-switch-border-color: #1b1b1b;
+		--gnome-switch-border-color: #2d2d2d;
 		--gnome-switch-slider-background: linear-gradient(to bottom, #3c3c3c 20%, #353535 90%);
 		--gnome-switch-slider-border-color: #111111;
 		--gnome-switch-slider-box-shadow: inset 0 1px rgba(255, 255, 255, 0.02), 0 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.07);

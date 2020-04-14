@@ -725,7 +725,7 @@ style "menu_item" {
   # does; setting this value equal to the one in
   # fg[PRELIGHT] ensures a code path in the LO theming code
   # that falls back to a dark text color for menu item text
-  # highlight. The price to pay is black text on menus as well,
+  # highlight. The price to pay is #2d2d2d text on menus as well,
   # but at least it's readable.
   # See https://bugs.freedesktop.org/show_bug.cgi?id=38038
 

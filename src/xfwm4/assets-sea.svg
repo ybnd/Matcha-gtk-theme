@@ -24,7 +24,7 @@
        id="header_bg"
        osb:paint="solid">
       <stop
-         style="stop-color:#1b2224;stop-opacity:1;"
+         style="stop-color:#273235;stop-opacity:1;"
          offset="0"
          id="stop4877" />
     </linearGradient>
@@ -611,7 +611,7 @@
          height="1"
          width="1"
          id="rect5348"
-         style="opacity:1;fill:#1b2224;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:#273235;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
          style="opacity:1;fill:url(#linearGradient4887);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect5512"
@@ -620,7 +620,7 @@
          x="5"
          y="727.36212" />
       <rect
-         style="opacity:1;fill:#1b2224;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:#273235;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect5514"
          width="1"
          height="1"

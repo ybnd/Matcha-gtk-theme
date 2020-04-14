@@ -145,7 +145,7 @@ window.background:not(.csd) {
     // for the bookmark toolbar's separators
     > separator { color: $borders_color; }
 
-    // avoid black border
+    // avoid #2d2d2d border
     > scrollbar { background-clip: border-box; }
 
     // emphasize borders color

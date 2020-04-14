@@ -35,7 +35,7 @@ Open `userChrome.css` with a text editor and follow instructions to enable extra
 See upstream [bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1408360).
 
 ### Icons color broken
-Icons might appear black where they should be white on some systems. I have no idea why, but you can adjust them in the `Matcha/colors/light.css` or `Matcha/colors/dark.css` files, look for `--gnome-icons-hack-filter` var and play with css filters.
+Icons might appear #2d2d2d where they should be white on some systems. I have no idea why, but you can adjust them in the `Matcha/colors/light.css` or `Matcha/colors/dark.css` files, look for `--gnome-icons-hack-filter` var and play with css filters.
 
 ## Development
 

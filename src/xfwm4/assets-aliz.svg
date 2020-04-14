@@ -32,7 +32,7 @@
        id="header_bg"
        osb:paint="solid">
       <stop
-         style="stop-color:#222222;stop-opacity:1;"
+         style="stop-color:#273235;stop-opacity:1;"
          offset="0"
          id="stop1174" />
     </linearGradient>
@@ -162,7 +162,7 @@
        id="header_bg-0"
        osb:paint="solid">
       <stop
-         style="stop-color:#1b2224;stop-opacity:1;"
+         style="stop-color:#273235;stop-opacity:1;"
          offset="0"
          id="stop4877" />
     </linearGradient>

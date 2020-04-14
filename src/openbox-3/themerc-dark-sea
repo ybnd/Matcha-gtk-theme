@@ -104,7 +104,7 @@ menu.items.active.text.color: #ffffff
 menu.items.active.disabled.text.color: #aeb0b6
 
 menu.items.bg: flat solid
-menu.items.bg.color: #1b2224
+menu.items.bg.color: #273235
 menu.items.active.bg: flat solid
 menu.items.active.bg.color: #2f9b85
 menu.title.bg: flat solid

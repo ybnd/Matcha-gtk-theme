@@ -228,7 +228,7 @@
        id="header_bg-6"
        osb:paint="solid">
       <stop
-         style="stop-color:#1b2224;stop-opacity:1;"
+         style="stop-color:#273235;stop-opacity:1;"
          offset="0"
          id="stop4877" />
     </linearGradient>
@@ -253,7 +253,7 @@
        id="header_bg-5"
        osb:paint="solid">
       <stop
-         style="stop-color:#1b1d24;stop-opacity:1;"
+         style="stop-color:#273235;stop-opacity:1;"
          offset="0"
          id="stop1167-2" />
     </linearGradient>

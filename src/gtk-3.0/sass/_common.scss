@@ -84,7 +84,7 @@ button.gtkstyle-fallback { // For Cinnamon system setting
       @extend %selected_items;
     }
 
-   &:hover { background-color: mix(black, $selected_bg_color, 10%); }
+   &:hover { background-color: mix(#2d2d2d, $selected_bg_color, 10%); }
   }
 }
 
@@ -1701,7 +1701,7 @@ treeview.view {
   @extend %row_activatable;
 
   border-left-color: rgba($fg_color, 0.15);   // this is actually the tree lines color,
-  border-top-color: rgba(black, 0.1);         // while this is the grid lines color, better then nothing
+  border-top-color: rgba(#2d2d2d, 0.1);         // while this is the grid lines color, better then nothing
 
   rubberband { @extend rubberband; }                    // to avoid borders being overridden by the previously set props
 
@@ -1727,7 +1727,7 @@ treeview.view {
 
   &.separator {
     min-height: 2px;
-    color: rgba(black, 0.1);
+    color: rgba(#2d2d2d, 0.1);
   }
 
   &:drop(active) {
@@ -1775,7 +1775,7 @@ treeview.view {
 
     &:selected, &:selected:focus {
       color: $selected_fg_color;
-      background-color: rgba(black, 0.2);
+      background-color: rgba(#2d2d2d, 0.2);
       border-radius: 3px;
       border-width: 0;
     }
@@ -1797,8 +1797,8 @@ treeview.view {
       border-radius: 0;
       border-image: linear-gradient(to bottom,
                                     $base_color 20%,
-                                    rgba(if($variant == 'light', black, white), 0.12) 20%,
-                                    rgba(if($variant == 'light', black, white), 0.12) 80%,
+                                    rgba(if($variant == 'light', #2d2d2d, white), 0.12) 20%,
+                                    rgba(if($variant == 'light', #2d2d2d, white), 0.12) 80%,
                                     $base_color 80%) 0 1 0 0 / 0 1px 0 0 stretch;
 
       &:hover { color: $selected_bg_color; }
@@ -1984,7 +1984,7 @@ popover.background {
   background-clip: border-box;
   background-color: $_popover_bg;
 
-  box-shadow: 0 2px 6px 0 if($variant=='light', rgba(black, 0.07), rgba(black, 0.35));
+  box-shadow: 0 2px 6px 0 if($variant=='light', rgba(#2d2d2d, 0.07), rgba(#2d2d2d, 0.35));
 
   .csd &, & { border: 1px solid $borders_color; border-radius: 3px; }
 
@@ -2012,7 +2012,7 @@ popover.background {
 
   button:not(.suggested-action):not(.destructive-action) {
     &:hover {
-      background-color: if($variant=='light', rgba(black, 0.05), lighten($button_bg, 8%));
+      background-color: if($variant=='light', rgba(#2d2d2d, 0.05), lighten($button_bg, 8%));
       color: $text_color;
     }
 
@@ -2261,7 +2261,7 @@ scrollbar {
         min-width: 4px;
         min-height: 4px;
         background-color: mix($fg_color, $bg_color, 70%);
-        border: 1px solid if($variant == 'light', rgba(white, 0.6), rgba(black, 0.3));
+        border: 1px solid if($variant == 'light', rgba(white, 0.6), rgba(#2d2d2d, 0.3));
       }
 
       &.horizontal slider {
@@ -2454,7 +2454,7 @@ scale {
 
   // Trough
   trough {
-    $_scale_trough_bg: if($variant == 'light', rgba(black, 0.15), rgba(black, 0.25));
+    $_scale_trough_bg: if($variant == 'light', rgba(#2d2d2d, 0.15), rgba(#2d2d2d, 0.25));
 
     outline-offset: 2px;
     -gtk-outline-radius: 4.5px;
@@ -2462,7 +2462,7 @@ scale {
     border-radius: 2.5px;
     background-color: $_scale_trough_bg;
 
-    &:disabled { background-color: if($variant == 'light', rgba(black, 0.08), rgba(black, 0.15)); }
+    &:disabled { background-color: if($variant == 'light', rgba(#2d2d2d, 0.08), rgba(#2d2d2d, 0.15)); }
 
     //OSD troughs
     .osd & {
@@ -2587,7 +2587,7 @@ scale {
   %selected_scale,
   &:hover, &:selected {
     trough { // Troughs in selected list-rows and infobars
-      background-color: rgba(black, 0.2);
+      background-color: rgba(#2d2d2d, 0.2);
 
       highlight {
         background-color: $alt_selected_bg_color;
@@ -2595,7 +2595,7 @@ scale {
         &:disabled { background-color: mix($selected_fg_color, $selected_bg_color, 55%); }
       }
 
-      &:disabled { background-color: rgba(black, 0.1); }
+      &:disabled { background-color: rgba(#2d2d2d, 0.1); }
     }
   }
 }
@@ -2640,7 +2640,7 @@ progressbar {
     background-color: if($variant == 'light', $button_border, darken($bg_color, 5%));
 
     row:selected &,
-    infobar & { background-color: rgba(black, 0.2); }
+    infobar & { background-color: rgba(#2d2d2d, 0.2); }
   }
 }
 
@@ -2754,7 +2754,7 @@ scrolledwindow {
 
 //vbox and hbox separators
 separator {
-  background-color: rgba(black, 0.1);
+  background-color: rgba(#2d2d2d, 0.1);
   min-width: 1px;
   min-height: 1px;
 }
@@ -2772,7 +2772,7 @@ list {
 %row_activatable {
   &.has-open-popup,
   &:hover {
-    background-color: if($variant == 'light', rgba(black, 0.05), rgba(white, 0.03));
+    background-color: if($variant == 'light', rgba(#2d2d2d, 0.05), rgba(white, 0.03));
   }
 
   &:active { color: $fg_color; }
@@ -2785,7 +2785,7 @@ list {
     &:active { color: $selected_fg_color; }
 
     &.has-open-popup,
-    &:hover { background-color: mix(black, $selected_bg_color, 10%); }
+    &:hover { background-color: mix(#2d2d2d, $selected_bg_color, 10%); }
   }
 }
 
@@ -3335,25 +3335,25 @@ colorswatch {
   &.dark overlay {
     color: rgba(white, 0.37);
     &:hover {
-      border-color: if($variant == 'light', rgba(black, 0.5), $borders_color);
+      border-color: if($variant == 'light', rgba(#2d2d2d, 0.5), $borders_color);
     }
   }
   &.light overlay {
-    color: rgba(black, 0.7);
+    color: rgba(#2d2d2d, 0.7);
     &:hover {
-      border-color: if($variant == 'light', rgba(black, 0.3), $borders_color);
+      border-color: if($variant == 'light', rgba(#2d2d2d, 0.3), $borders_color);
     }
   }
 
   overlay {
-    border: 1px solid if($variant == 'light', rgba(black, 0.15), $borders_color);
+    border: 1px solid if($variant == 'light', rgba(#2d2d2d, 0.15), $borders_color);
     &:hover { background-color: rgba(white, 0.2) }
   }
 
   &:disabled {
     opacity: 0.5;
     overlay {
-      border-color: rgba(black, 0.6);
+      border-color: rgba(#2d2d2d, 0.6);
       box-shadow: none;
     }
   }
@@ -3433,7 +3433,7 @@ button.circular-button {
   background-color: $base_color;
   border: 1px solid $borders_color;
   border-radius: 2.5px;
-  box-shadow: inset 0px -2px 0px if($variant=='light', rgba(black, 0.05), rgba(black, 0.15));
+  box-shadow: inset 0px -2px 0px if($variant=='light', rgba(#2d2d2d, 0.05), rgba(#2d2d2d, 0.15));
 }
 
 stackswitcher button {
@@ -3452,7 +3452,7 @@ stackswitcher button {
 //
 // Window Decorations
 //
-$_wm_border: if($variant=='light', rgba(black, 0.1), rgba(black, 0.2));
+$_wm_border: if($variant=='light', rgba(#2d2d2d, 0.1), rgba(#2d2d2d, 0.2));
 
 decoration {
   border-radius: if($variant=='light', 2px 2px 0 0, 2px 2px 0 0);

@@ -131,10 +131,10 @@ XfdesktopIconView.view {
 
 $dark_menu_bg: $panel_bg;
 $dark_menu_fg: $panel_fg;
-$dark_menu_border: rgba(black, 0.20);
+$dark_menu_border: rgba(#2d2d2d, 0.20);
 
 %dark_menu_scrollbar {
-  background-color: rgba(black, 0.15);
+  background-color: rgba(#2d2d2d, 0.15);
   border-color: darken($dark_menu_bg, 2%);
 
   &.overlay-indicator:not(.dragging):not(.hovering) slider {
@@ -151,7 +151,7 @@ $dark_menu_border: rgba(black, 0.20);
     &:disabled { background-color: transparent; }
   }
 
-  trough { background-color: rgba(black, 0.08); }
+  trough { background-color: rgba(#2d2d2d, 0.08); }
 }
 
 window#whiskermenu-window {

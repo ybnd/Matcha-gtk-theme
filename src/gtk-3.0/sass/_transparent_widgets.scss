@@ -174,7 +174,7 @@ filechooser {
 
   &.overlay-indicator:not(.dragging):not(.hovering) slider {
     background-color: lighten($dark_sidebar_fg, 15%);
-    border: 1px solid rgba(black, 0.3);
+    border: 1px solid rgba(#2d2d2d, 0.3);
   }
 
   slider {

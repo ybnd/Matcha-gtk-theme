@@ -120,7 +120,7 @@ terminal-window,
 %nautilus-canvas-item,
 .nautilus-desktop.nautilus-canvas-item {
   color: $selected_fg_color;
-  text-shadow: 1px 1px transparentize(black, 0.4);
+  text-shadow: 1px 1px transparentize(#2d2d2d, 0.4);
 
   &:active { color: $fg_color; }
 
@@ -292,7 +292,7 @@ $disk_space_free: darken($bg_color, 3%);
 
 .gedit-map-frame {
   border {
-    @if $variant=='light' { border-color: transparentize(black, 0.7); }
+    @if $variant=='light' { border-color: transparentize(#2d2d2d, 0.7); }
     border-width: 0;
 
     &:dir(ltr) { border-left-width: 1px; }
@@ -629,7 +629,7 @@ list#AutostartListBoxTweakGroup {
 //
 .tr-workarea undershoot,
 .tr-workarea overshoot {
-  border-color: transparent; // Remove black border on over- and undershoot
+  border-color: transparent; // Remove #2d2d2d border on over- and undershoot
 }
 
 //
@@ -796,7 +796,7 @@ graph-switcher-button.toggle {
   font-weight: 500;
   &:hover { // use opaque
     color: $fg_color;
-    background-image: image(if($variant == 'light', rgba(black, 0.05), rgba(white, 0.03)));
+    background-image: image(if($variant == 'light', rgba(#2d2d2d, 0.05), rgba(white, 0.03)));
   }
 }
 

@@ -6702,7 +6702,7 @@ window.background.csd > box.vertical > stack > box.horizontal > revealer > stack
 }
 
 window#ValaPanel.background {
-  background-color: #2c3739;
+  background-color: #273235;
   border: none;
   color: #c6cdcb;
 }
@@ -6988,7 +6988,7 @@ MsdOsdWindow.background.osd .trough {
 .mate-panel-menu-bar, .mate-panel-menu-bar menubar,
 panel-toplevel.background,
 panel-toplevel.background menubar {
-  background-color: #2c3739;
+  background-color: #273235;
 }
 
 .mate-panel-menu-bar button label, .mate-panel-menu-bar button image,
@@ -7004,12 +7004,12 @@ panel-toplevel.background button#tasklist-button image {
 .mate-panel-menu-bar .wnck-pager,
 panel-toplevel.background .wnck-pager {
   color: #7a7d7c;
-  background-color: #161b1c;
+  background-color: #111618;
 }
 
 .mate-panel-menu-bar .wnck-pager:hover,
 panel-toplevel.background .wnck-pager:hover {
-  background-color: #374547;
+  background-color: #324044;
 }
 
 .mate-panel-menu-bar .wnck-pager:selected,
@@ -7026,14 +7026,14 @@ panel-toplevel.background na-tray-applet {
 
 PanelToplevel.background {
   color: #c6cdcb;
-  background-color: #2c3739;
+  background-color: #273235;
 }
 
 #PanelWidget,
 #PanelPlug,
 #PanelApplet {
   color: #c6cdcb;
-  background-color: #2c3739;
+  background-color: #273235;
 }
 
 PanelSeparator {
@@ -7740,13 +7740,13 @@ popover.background.places-menu row {
 
 .budgie-panel {
   transition: background-color 0.2s cubic-bezier(0, 0, 0.2, 1);
-  background-color: #2c3739;
+  background-color: #273235;
   color: #c6cdcb;
   font-weight: 500;
 }
 
 .budgie-panel.transparent {
-  background-color: rgba(44, 55, 57, 0.85);
+  background-color: rgba(39, 50, 53, 0.85);
 }
 
 .budgie-panel button {
@@ -8031,7 +8031,7 @@ frame.raven-frame > border {
 
 .raven .raven-header.top {
   padding: 2px 12px;
-  background-color: #2c3739;
+  background-color: #273235;
   color: #c6cdcb;
 }
 
@@ -8045,12 +8045,12 @@ frame.raven-frame > border {
   padding: 2px 16px;
   min-height: 16px;
   border: none;
-  background-color: #425356;
+  background-color: #3d4e52;
   color: #c6cdcb;
 }
 
 .raven .raven-header.top stackswitcher button:hover {
-  background-color: #4d6164;
+  background-color: #475c61;
   box-shadow: none;
 }
 
@@ -8577,7 +8577,7 @@ box.vertical > stack > box.vertical > .raven-background > viewport.frame > list 
   padding: 8px;
   border-radius: 2px;
   box-shadow: 0 5px 5px 0 transparent, 0 8px 15px 0 transparent, 0 3px 3px 0 rgba(45, 45, 45, 0.25);
-  background-color: #2c3739;
+  background-color: #273235;
   color: #c6cdcb;
 }
 
@@ -8739,7 +8739,7 @@ box.vertical > stack > box.vertical > .raven-background > viewport.frame > list 
 }
 
 .xfce4-panel.panel {
-  background-color: #2c3739;
+  background-color: #273235;
   text-shadow: none;
   -gtk-icon-shadow: none;
   border: none;
@@ -8752,7 +8752,7 @@ box.vertical > stack > box.vertical > .raven-background > viewport.frame > list 
 }
 
 .xfce4-panel {
-  background-color: #2c3739;
+  background-color: #273235;
   color: #c6cdcb;
   font-weight: 700;
   text-shadow: none;
@@ -8832,7 +8832,7 @@ XfdesktopIconView.view:active, XfdesktopIconView.view:checked {
 
 window#whiskermenu-window scrolledwindow scrollbar {
   background-color: rgba(45, 45, 45, 0.15);
-  border-color: #283133;
+  border-color: #232c2f;
 }
 
 window#whiskermenu-window scrolledwindow scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
@@ -8861,7 +8861,7 @@ window#whiskermenu-window scrolledwindow scrollbar trough {
 }
 
 window#whiskermenu-window {
-  background-color: #2c3739;
+  background-color: #273235;
   color: #c6cdcb;
 }
 
@@ -8890,7 +8890,7 @@ window#whiskermenu-window button:checked, window#whiskermenu-window button:activ
 window#whiskermenu-window button:disabled {
   color: rgba(198, 205, 203, 0.45);
   border-color: rgba(45, 45, 45, 0.15);
-  background-color: rgba(44, 55, 57, 0.45);
+  background-color: rgba(39, 50, 53, 0.45);
 }
 
 window#whiskermenu-window entry {
@@ -8900,7 +8900,7 @@ window#whiskermenu-window entry {
 }
 
 window#whiskermenu-window entry image {
-  color: #a7afae;
+  color: #a6aead;
 }
 
 window#whiskermenu-window entry:focus {
@@ -8914,7 +8914,7 @@ window#whiskermenu-window entry:focus image {
 window#whiskermenu-window entry:disabled {
   color: rgba(198, 205, 203, 0.45);
   border-color: rgba(45, 45, 45, 0.15);
-  background-color: rgba(44, 55, 57, 0.45);
+  background-color: rgba(39, 50, 53, 0.45);
 }
 
 window#whiskermenu-window entry:disabled image {
@@ -8922,12 +8922,12 @@ window#whiskermenu-window entry:disabled image {
 }
 
 window#whiskermenu-window scrolledwindow .view {
-  background-color: rgba(55, 69, 71, 0.9);
+  background-color: rgba(50, 64, 68, 0.9);
   color: #c6cdcb;
 }
 
 window#whiskermenu-window scrolledwindow .view:selected:hover {
-  background-color: #425356;
+  background-color: #3d4e52;
   color: #c6cdcb;
 }
 
@@ -8971,7 +8971,7 @@ window.thunar notebook header.top tab.reorderable-page > box > label {
  * Elementary Desktop *
  **********************/
 .panel {
-  background-color: #2c3739;
+  background-color: #273235;
   transition: all 100ms ease-in-out;
   color: #c6cdcb;
   font-weight: bold;
@@ -8982,7 +8982,7 @@ window.thunar notebook header.top tab.reorderable-page > box > label {
 }
 
 .panel.translucent {
-  background-color: #2c3739;
+  background-color: #273235;
 }
 
 menubar .panel, .panel menubar {
@@ -9253,10 +9253,10 @@ scale.warmth trough {
 }
 
 #panel_window {
-  background-color: #2c3739;
+  background-color: #273235;
   color: #c6cdcb;
   font-weight: bold;
-  box-shadow: inset 0 -1px #1c2425;
+  box-shadow: inset 0 -1px #181f20;
 }
 
 #panel_window menubar {
@@ -9918,5 +9918,5 @@ filechooser placessidebar.sidebar scrollbar trough,
 @define-color wm_icon_active_bg #ffffff;
 @define-color budgie_tasklist_indicator_color #2eb398;
 @define-color budgie_tasklist_indicator_color_active #2eb398;
-@define-color budgie_tasklist_indicator_color_active_window #2d7a6c;
+@define-color budgie_tasklist_indicator_color_active_window #2b786a;
 @define-color budgie_tasklist_indicator_color_attention #F27835;

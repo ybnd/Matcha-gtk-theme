@@ -10,7 +10,7 @@
 		--gnome-selected-background: #2eb398;
 
 		/* Browser area before a page starts loading */
-		--gnome-browser-before-load-background: #303b3e;
+		--gnome-browser-before-load-background: #273235;
 
 		/* Toolbars */
 		--gnome-toolbar-background: #273235;
@@ -20,8 +20,8 @@
 		--gnome-inactive-toolbar-border-color: #14191B;
 
 		/* Sidebar */
-		--gnome-sidebar-background: #303b3e;
-		--gnome-inactive-sidebar-background: #303b3e;
+		--gnome-sidebar-background: #273235;
+		--gnome-inactive-sidebar-background: #273235;
 
 		/* Popups */
 		--gnome-menu-background: #273235;
@@ -34,7 +34,7 @@
 
 		/* Header bar */
 		--gnome-headerbar-color: #ccd7d4;
-		--gnome-headerbar-background: #141A1B;
+		--gnome-headerbar-background: #273235;
 		--gnome-headerbar-border-color: #0e1112;
 		--gnome-headerbar-box-shadow: inset 0 1px rgba(238, 238, 236, 0.07);
 		--gnome-inactive-headerbar-background: #273235;
@@ -51,10 +51,10 @@
 		--gnome-button-active-border-color: #2eb398;
 		--gnome-button-active-border-accent-color: #14191B;
 		--gnome-button-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
-		--gnome-button-disabled-background: #20292C;
+		--gnome-button-disabled-background: #273235;
 		--gnome-button-disabled-border-color: #1c2326;
 		--gnome-button-disabled-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
-		--gnome-inactive-button-background: #20292C;
+		--gnome-inactive-button-background: #273235;
 		--gnome-inactive-button-border-color: #1c2326;
 		--gnome-inactive-button-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
 		--gnome-flat-button-hover-background: rgba(255, 255, 255, 0.1);
@@ -91,7 +91,7 @@
 		--gnome-entry-border-color: #14191B;
 		--gnome-entry-box-shadow: none;
 		--gnome-entry-color: #D3DAE3;
-		--gnome-inactive-entry-background: #1E2629;
+		--gnome-inactive-entry-background: #273235;
 		--gnome-inactive-entry-border-color: #14191B;
 		--gnome-inactive-entry-box-shadow: none;
 		--gnome-inactive-entry-color: #d6d6d6;
@@ -102,7 +102,7 @@
 		--gnome-header-entry-background: #273235;
 		--gnome-header-entry-border-color: #0e1112;
 		--gnome-header-inactive-entry-color: #d6d6d6;
-		--gnome-header-inactive-entry-background: #1E2629;
+		--gnome-header-inactive-entry-background: #273235;
 		--gnome-header-inactive-entry-border-color: #14191B;
 
 		/* Switch */

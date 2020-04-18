@@ -65,10 +65,10 @@ $header_bg_backdrop: if($variant == 'dark', lighten($header_bg, 2%), lighten($he
 $header_border: if($variant == 'light', darken($header_bg, 7%), darken($header_bg, 4%));
 $header_fg: if($variant =='light', mix($selected_bg_color, #bdbdbd, 5%), $text_color);
 
-$dark_sidebar_bg: #303b3e;
-@if $color=='sea' { $dark_sidebar_bg: if($transparency == 'true', transparentize(#303b3e, 0.05), #303b3e); }
+$dark_sidebar_bg: #273235;
+@if $color=='sea' { $dark_sidebar_bg: if($transparency == 'true', transparentize(#273235, 0.05), #273235); }
 @if $color=='aliz' { $dark_sidebar_bg: if($transparency == 'true', transparentize(#363636, 0.05), #363636); }
-@if $color=='azul' { $dark_sidebar_bg: if($transparency == 'true', transparentize(#30343e, 0.05), #30343e); }
+@if $color=='azul' { $dark_sidebar_bg: if($transparency == 'true', transparentize(#273235, 0.05), #273235); }
 $dark_sidebar_fg: if($variant =='light', mix($selected_bg_color, #bdbdbd, 5%), $text_color);
 $dark_sidebar_border: if($variant == 'light', $dark_sidebar_bg, darken($dark_sidebar_bg, 5%));
 

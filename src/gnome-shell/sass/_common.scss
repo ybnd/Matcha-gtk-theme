@@ -54,7 +54,7 @@ stage {
   min-height: $medium_size;
   padding: 0 16px;
   border-width: 0;
-  border-radius: 2px;
+  border-radius: 0;
   @include font(button);
   @include button(flat-normal);
   &:hover { @include button(flat-hover); }
@@ -237,7 +237,7 @@ StScrollBar {
 
 /* links */
 .shell-link {
-  border-radius: 2px;
+  border-radius: 0;
   color: $link_color;
   &:hover {
     color: $link_color;
@@ -266,7 +266,7 @@ StScrollBar {
 .flashspot { background-color: white; }
 
 .modal-dialog {
-  border-radius: 2px;
+  border-radius: 0;
   color: $fg_color;
   margin: 10px;
   background-color: $base_color;
@@ -596,7 +596,7 @@ StScrollBar {
 
 .audio-selection-device {
   border: 1px solid $borders_color;
-  border-radius: 3px;
+  border-radius: 0;
 
   &:active, &:hover, &:focus {
     background-color: $selected_bg_color;
@@ -770,7 +770,7 @@ StScrollBar {
 }
 
 .popup-menu-boxpointer {
-  -arrow-border-radius: 2px;
+  -arrow-border-radius: 0;
   -arrow-background-color: transparent;
   -arrow-border-width: 1px;
   -arrow-border-color: transparent;
@@ -784,7 +784,7 @@ StScrollBar {
 }
 
 .candidate-popup-boxpointer {
-  -arrow-border-radius: 2px;
+  -arrow-border-radius: 0;
   -arrow-background-color: transparent;
   -arrow-border-width: 1px;
   -arrow-border-color: transparent;
@@ -941,7 +941,7 @@ StScrollBar {
 
   .level-bar {
     background-color: $selected_bg_color;
-    border-radius: 2px;
+    border-radius: 0;
   }
 }
 
@@ -961,7 +961,7 @@ StScrollBar {
 
 .switcher-list .item-box {
   padding: 8px;
-  border-radius: 2px;
+  border-radius: 0;
 }
 
 .switcher-list .item-box:outlined {
@@ -1023,14 +1023,14 @@ StScrollBar {
   background-color: $selected_bg_color;
   color: $selected_fg_color;
   background-size: 32px;
-  border-radius: 2px;
+  border-radius: 0;
 }
 
 .ws-switcher-box {
   height: 48px;
   border: none;
   background: $insensitive_track_color;
-  border-radius: 2px;
+  border-radius: 0;
 }
 
 %osd-panel {
@@ -1038,7 +1038,7 @@ StScrollBar {
   background-color: $base_color;
   border: none;
   box-shadow: $z-depth-4;
-  border-radius: 2px;
+  border-radius: 0;
   padding: 12px;
 }
 
@@ -1237,7 +1237,7 @@ StScrollBar {
   min-height: $menuitem_size - 4px * 2;
   padding: 12px;
   margin: 4px;
-  border-radius: 2px;
+  border-radius: 0;
   border: none;
   box-shadow: none;
   background: none;
@@ -1296,7 +1296,7 @@ StScrollBar {
   height: $menuitem_size - 4px * 2;
   margin: 2px;
   padding: 6px 16px;
-  border-radius: 2px;
+  border-radius: 0;
   color: $fg_color;
   font-weight: bold;
   text-align: center;
@@ -1455,7 +1455,7 @@ StScrollBar {
   margin: 4px;
   background-color: transparent;
   border: none;
-  border-radius: 2px;
+  border-radius: 0;
   color: $secondary_fg_color;
 
   &:hover, &:focus {
@@ -1665,14 +1665,14 @@ StScrollBar {
   border: 1px solid $borders_color;
   padding: 0;
   background-color: darken($base_color, 3%);
-  border-radius: 2px;
+  border-radius: 0;
 }
 .nm-dialog-header { @include font(title); }
 
 .nm-dialog-item {
   font-size: 1em;
   border-bottom: none;
-  border-radius: 2px;
+  border-radius: 0;
   padding: 12px;
   spacing: 20px;
   &:hover, &:focus { background-color: $semi_track_color; }
@@ -1763,7 +1763,7 @@ StScrollBar {
 
 .window-clone-border {
   border: 4px solid scale-alpha($selected_bg_color, 0.7);
-  border-radius: 2px;
+  border-radius: 0;
   // For window decorations with round corners we can't match
   // the exact shape when the window is scaled. So apply a shadow
   // to fix that case
@@ -1774,7 +1774,7 @@ StScrollBar {
   spacing: 25px;
   color: $selected_fg_color;
   background-color: scale-alpha(#2d2d2d, 0.5);
-  border-radius: 2px;
+  border-radius: 0;
   padding: 4px 8px;
   -shell-caption-spacing: 12px;
   border: none;
@@ -1860,7 +1860,7 @@ StScrollBar {
 // content
 .search-section-content {
   background-color: $overview_bg_color;
-  border-radius: 3px;
+  border-radius: 0;
   border: none;
   box-shadow: none;
   text-shadow: none;
@@ -1970,7 +1970,7 @@ StScrollBar {
 
 .dash-label { //osd tooltip
   min-height: 32px - 6px * 2;
-  border-radius: 2px;
+  border-radius: 0;
   padding: 6px 8px;
   color: $fg_color;
   background-color: $base_color;
@@ -2024,7 +2024,7 @@ StScrollBar {
 
 %icon_tile {
   color: $selected_fg_color;
-  border-radius: 2px;
+  border-radius: 0;
   padding: 6px;
   border: none;
   transition-duration: 0.2s;
@@ -2050,7 +2050,7 @@ StScrollBar {
 
 // Collections
 .app-folder-popup { //expanded collection
-  -arrow-border-radius: 2px;
+  -arrow-border-radius: 0;
   -arrow-background-color: $overview_bg_color;
   -arrow-base: 24px;
   -arrow-rise: 12px;
@@ -2214,7 +2214,7 @@ StScrollBar {
     width: 34em;
     min-height: $menuitem_size * 2;
     margin: 5px;
-    border-radius: 2px;
+    border-radius: 0;
     color: $fg_color;
     background-color: $base_color;
     border: none;
@@ -2298,7 +2298,7 @@ StScrollBar {
 
     .hotplug-resident-mount {
       spacing: 8px;
-      border-radius: 2px;
+      border-radius: 0;
       &:hover { background-color: $semi_track_color; }
       &:active { background-color: $track_color; }
     }
@@ -2319,7 +2319,7 @@ StScrollBar {
 
     .hotplug-resident-eject-button {
       padding: 7px;
-      border-radius: 2px;
+      border-radius: 0;
       color: $fg_color;
     }
 
@@ -2394,7 +2394,7 @@ $key_bg_color: lighten($topbar_color, 15%);
   min-width: 2em;
   font-size: 14pt;
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 0;
   border: none;
   color: $selected_fg_color;
   background-color: $key_bg_color;
@@ -2445,7 +2445,7 @@ $key_bg_color: lighten($topbar_color, 15%);
 
 .keyboard-subkeys { //long press on a key popup
   color: inherit;
-  -arrow-border-radius: 3px;
+  -arrow-border-radius: 0;
   -arrow-background-color: rgba(#2d2d2d, 0.75);
   -arrow-border-width: 0;
   -arrow-border-color: transparent;
@@ -2494,7 +2494,7 @@ $key_bg_color: lighten($topbar_color, 15%);
   transition-duration: 0s;
   min-height: $menuitem_size;
   padding: 0 8px;
-  border-radius: 2px;
+  border-radius: 0;
   &:hover { background-color: $semi_track_color; color: $fg_color; }
   &:active { background-color: $track_color; color: $fg_color; }
   &:selected { background-color: $selected_bg_color; color: $selected_fg_color; }
@@ -2512,8 +2512,8 @@ $key_bg_color: lighten($topbar_color, 15%);
   padding: 0;
 }
 
-.candidate-page-button-previous { border-radius: 2px; border-right-width: 0; }
-.candidate-page-button-next { border-radius: 2px;  }
+.candidate-page-button-previous { border-radius: 0; border-right-width: 0; }
+.candidate-page-button-next { border-radius: 0;  }
 .candidate-page-button-icon { @include em(16px); }
 
 /* Auth Dialogs & Screen Shield */
@@ -2522,7 +2522,7 @@ $key_bg_color: lighten($topbar_color, 15%);
   background-size: contain;
   border: none;
   color: $selected_fg_color;
-  border-radius: 2px;
+  border-radius: 0;
   &:hover {
     border-color: $selected_fg_color;
     color: $selected_fg_color;
@@ -2638,7 +2638,7 @@ $key_bg_color: lighten($topbar_color, 15%);
 }
 
 .login-dialog-user-list-item {
-  border-radius: 3px;
+  border-radius: 0;
   padding: 6px;
   color: $secondary_selected_fg_color;
   &:ltr .user-widget { padding-right: 1em; }
@@ -2736,7 +2736,7 @@ $key_bg_color: lighten($topbar_color, 15%);
     border: none;
     background-color: $osd_bg_color;
     color: $selected_fg_color;
-    border-radius: 2px;
+    border-radius: 0;
   }
   .notification { margin-right: 16px; } //compensate for space allocated to the scrollbar
 }
@@ -2776,7 +2776,7 @@ $key_bg_color: lighten($topbar_color, 15%);
   spacing: 4px;
   padding: 0;
   border: none;
-  border-radius: 2px;
+  border-radius: 0;
   box-shadow: $z-depth-4;
   & > #Toolbar {
     padding: 0 8px;
@@ -2838,7 +2838,7 @@ $key_bg_color: lighten($topbar_color, 15%);
   min-height: $medium_size;
   padding: 0 16px;
   border: none;
-  border-radius: 2px;
+  border-radius: 0;
   @include font(button);
   @include button(flat-normal);
   &:hover { @include button(flat-hover); }
@@ -2857,7 +2857,7 @@ $key_bg_color: lighten($topbar_color, 15%);
 
 .lg-extension {
   border: none;
-  border-radius: 2px;
+  border-radius: 0;
   padding: 4px;
 }
 
@@ -2872,7 +2872,7 @@ $key_bg_color: lighten($topbar_color, 15%);
 #LookingGlassPropertyInspector {
   background: $base_color;
   border: none;
-  border-radius: 2px;
+  border-radius: 0;
   padding: 6px;
   box-shadow: $z-depth-4;
 }

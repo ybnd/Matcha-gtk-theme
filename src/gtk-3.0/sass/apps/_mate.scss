@@ -14,7 +14,7 @@
 // Mate OSD Window
 //
 MsdOsdWindow.background.osd {
-  border-radius: 2px;
+  border-radius: 0;
   border: 1px solid darken($osd_bg_color, 8%);
 
   .progressbar {
@@ -239,7 +239,7 @@ PanelToplevel.mate-panel-menu-bar > grid.horizontal > button {
     button.flat {
       padding-top: unset;
       padding-bottom: unset;
-      border-radius: 2px;
+      border-radius: 0;
       -gtk-outline-radius: 0;
       font-weight: 500;
       transition-duration: 0.1s; // shorter duration
@@ -301,7 +301,7 @@ PanelToplevel.mate-panel-menu-bar > grid.horizontal > button {
     border-width: 1px;
     border-style: solid;
     border-color: $borders_color;
-    border-radius: 2px;
+    border-radius: 0;
     background-color: $bg_color;
 
     // unset borders
@@ -444,8 +444,8 @@ window#MyControlCenter > frame > box.horizontal {
   }
 
   toolbar > toolbutton button.flat.image-button { // back to square buttons
-    border-radius: 2px;
-    -gtk-outline-radius: 2px;
+    border-radius: 0;
+    -gtk-outline-radius: 0;
   }
 
   // 'presentation' mode fullscreen?
@@ -470,7 +470,7 @@ window#MyControlCenter > frame > box.horizontal {
 // OSDs are much blurred?
 MsdOsdWindow {
   &.background.osd {
-    border-radius: 2px;
+    border-radius: 0;
     border: 1px solid $osd_borders_color;
     background-color: $osd_bg_color;
     box-shadow: none;
@@ -503,10 +503,10 @@ MsdOsdWindow {
 
     .drop-shadow {
       margin: 4px 6px 10px; // enlarge the shadow area
-      border-radius: 2px;
+      border-radius: 0;
     }
   }
 
   @extend %budgie_notification;
-  border-radius: 2px;
+  border-radius: 0;
 }

@@ -12,7 +12,7 @@ stage {
   min-height: 20px;
   padding: 5px 32px;
   transition-duration: 0;
-  border-radius: 2px;
+  border-radius: 0;
   text-shadow: 0 1px rgba(39, 50, 53, 0);
   color: #cbbfbf;
   background-color: #2b383b;
@@ -64,7 +64,7 @@ stage {
   min-height: 20px;
   padding: 5px 32px;
   transition-duration: 0;
-  border-radius: 2px;
+  border-radius: 0;
   text-shadow: 0 1px rgba(39, 50, 53, 0);
   color: #b5abab;
   border: 1px solid rgba(23, 23, 23, 0.35);
@@ -102,7 +102,7 @@ stage {
   selection-background-color: #F0544C;
   selected-color: #ffffff;
   transition-duration: 300ms;
-  border-radius: 3px;
+  border-radius: 0;
   color: #b5abab;
   background-color: #273235;
   border: 1px solid #232c2f;
@@ -136,7 +136,7 @@ stage {
   selection-background-color: #F0544C;
   selected-color: #ffffff;
   transition-duration: 300ms;
-  border-radius: 3px;
+  border-radius: 0;
   color: #b5abab;
   background-color: rgba(110, 110, 110, 0.35);
   border: 1px solid rgba(23, 23, 23, 0.35);
@@ -180,7 +180,7 @@ StScrollBar StBin#trough {
 }
 
 StScrollBar StButton#vhandle, StScrollBar StButton#hhandle {
-  border-radius: 2px;
+  border-radius: 0;
   background-color: #696a6c;
   border: 0px solid;
   margin: 0px;
@@ -311,7 +311,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #Tooltip {
-  border-radius: 3px;
+  border-radius: 0;
   padding: 5px 12px;
   background-color: rgba(54, 54, 54, 0.95);
   color: #b5abab;
@@ -420,7 +420,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu-boxpointer {
-  -arrow-border-radius: 3px;
+  -arrow-border-radius: 0;
   -arrow-background-color: rgba(0, 0, 0, 0);
   -arrow-border-width: 1px;
   -arrow-border-color: rgba(0, 0, 0, 0);
@@ -600,7 +600,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border: 1px solid rgba(54, 54, 54, 0.95);
   color: #b5abab;
   spacing: 25px;
-  border-radius: 2px;
+  border-radius: 0;
   font-size: 9pt;
   padding: 5px 8px;
   -cinnamon-caption-spacing: 4px;
@@ -616,7 +616,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .expo-workspaces-name-entry,
 .expo-workspaces-name-entry#selected {
   height: 15px;
-  border-radius: 2px;
+  border-radius: 0;
   font-size: 9pt;
   padding: 5px 8px;
   -cinnamon-caption-spacing: 4px;
@@ -640,13 +640,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .expo-workspace-thumbnail-frame {
   border: 4px solid rgba(255, 255, 255, 0);
   background-color: rgba(255, 255, 255, 0);
-  border-radius: 2px;
+  border-radius: 0;
 }
 
 .expo-workspace-thumbnail-frame#active {
   border: 4px solid #F0544C;
   background-color: #2d2d2d;
-  border-radius: 2px;
+  border-radius: 0;
 }
 
 .expo-background {
@@ -737,7 +737,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .about-scrollBox {
   border: 1px solid #232c2f;
-  border-radius: 2px;
+  border-radius: 0;
   background-color: #273235;
   padding: 4px;
   padding-right: 0;
@@ -831,7 +831,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   font-weight: bold;
   text-align: center;
   color: #cbbfbf;
-  border-radius: 2px;
+  border-radius: 0;
 }
 
 .calendar-day-base {
@@ -890,7 +890,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #notification {
-  border-radius: 3px;
+  border-radius: 0;
   border-image: url("common-assets/misc/bg.svg") 9 9 9 9;
   padding: 13px;
   spacing-rows: 10px;
@@ -964,7 +964,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   background: none;
   border: none;
   border-image: url("common-assets/misc/bg.svg") 9 9 9 9;
-  border-radius: 3px;
+  border-radius: 0;
   padding: 20px;
 }
 
@@ -978,7 +978,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .switcher-list .item-box {
   padding: 8px;
-  border-radius: 2px;
+  border-radius: 0;
 }
 
 .switcher-list .item-box:outlined {
@@ -1112,7 +1112,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   box-shadow: none;
   width: 21em;
   padding: 7px;
-  border-radius: 3px;
+  border-radius: 0;
   caret-color: #b5abab;
   selected-color: #ffffff;
   selection-background-color: #F0544C;
@@ -1242,7 +1242,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   min-width: 2em;
   font-size: 14pt;
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 0;
   box-shadow: none;
   text-shadow: 0 1px rgba(39, 50, 53, 0);
   color: #b5abab;
@@ -1274,7 +1274,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .keyboard-subkeys {
   color: #b5abab;
   padding: 5px;
-  -arrow-border-radius: 2px;
+  -arrow-border-radius: 0;
   -arrow-background-color: rgba(54, 54, 54, 0.95);
   -arrow-border-width: 1px;
   -arrow-border-color: rgba(45, 45, 45, 0.4);
@@ -1368,7 +1368,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .menu-category-button-hover {
   background-color: red;
-  border-radius: 2px;
+  border-radius: 0;
 }
 
 .menu-category-button-greyed {
@@ -1458,12 +1458,12 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   padding: 0;
   height: 4px;
   background-color: rgba(45, 45, 45, 0.35);
-  border-radius: 2px;
+  border-radius: 0;
   color: #F0544C;
 }
 
 .osd-window .level-bar {
-  border-radius: 2px;
+  border-radius: 0;
   background-color: #F0544C;
 }
 
@@ -1636,7 +1636,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   background-gradient-direction: vertical;
   background-gradient-start: #00C487;
   background-gradient-end: #00C487;
-  border-radius: 2px;
+  border-radius: 0;
   box-shadow: none;
 }
 
@@ -1664,7 +1664,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .grouped-window-list-thumbnail-menu .item-box {
   padding: 6px;
-  border-radius: 2px;
+  border-radius: 0;
   spacing: 4px;
 }
 
@@ -1821,7 +1821,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   background-gradient-direction: vertical;
   background-gradient-start: #00C487;
   background-gradient-end: #00C487;
-  border-radius: 2px;
+  border-radius: 0;
   box-shadow: none;
 }
 
@@ -1938,7 +1938,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   height: 13px;
   padding: 5px;
   color: #b5abab;
-  border-radius: 2px;
+  border-radius: 0;
   border: 1px solid rgba(54, 54, 54, 0);
 }
 

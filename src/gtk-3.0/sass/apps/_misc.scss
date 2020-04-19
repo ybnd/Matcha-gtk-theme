@@ -57,7 +57,7 @@
   // Rename entry
   .nemo-window-pane widget.entry {
     border: 1px solid;
-    border-radius: 3px;
+    border-radius: 0;
 
     @include entry(focus);
 
@@ -115,16 +115,16 @@
     border-radius: 0;
 
     &.bottom.left {
-      border-top-right-radius: 2px;
+      border-top-right-radius: 0;
     }
 
     &.bottom.right {
-      border-top-left-radius: 2px;
+      border-top-left-radius: 0;
     }
 
     button {
       border: none;
-      border-radius: 3px;
+      border-radius: 0;
       min-height: 16px;
       min-width: 16px;
       -gtk-icon-shadow: none;
@@ -155,13 +155,13 @@ window.background:not(.csd) {
     > entry,
     > button > button {
       border: 1px solid $firefox_border;
-      border-radius: 2px;
+      border-radius: 0;
     }
 
     > entry,
     .entry { // Set for linked entrys
 //      min-height: 26px;
-      border-radius: 2px;
+      border-radius: 0;
       background-image: image($base_color);
       border: 1px solid $firefox_border;
 

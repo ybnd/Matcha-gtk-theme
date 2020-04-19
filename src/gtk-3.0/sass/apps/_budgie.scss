@@ -1,7 +1,7 @@
 /******************
  * Budgie Desktop *
  ******************/
-$bt_radius: 2px;
+$bt_radius: 0;
 
 %budgiebutton_flat {
   transition: $button_transition;
@@ -625,7 +625,7 @@ calendar.raven-calendar {
   background-color: transparent;
 
   &:selected {
-    border-radius: 3px;
+    border-radius: 0;
     background-color: $selected_bg_color;
   }
 }
@@ -675,7 +675,7 @@ box.vertical > stack > box.vertical {
 
       // sub-list rows grouping
       list {
-        border-radius: 2px;
+        border-radius: 0;
         border-top: 1px solid $borders_color;
         border-bottom: 1px solid $borders_color;
 

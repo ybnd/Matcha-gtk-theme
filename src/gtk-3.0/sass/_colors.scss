@@ -75,7 +75,7 @@ $header_bg: #273235;
 @if $color=='aliz' and $header == 'dark' { $header_bg: if($variant =='light', #273235, darken(#273235, 3%)); }
 @if $color=='azul' and $header == 'dark' { $header_bg: if($variant =='light', #273235, darken(#273235, 3%)); }
 
-$header_bg_backdrop: if($header == 'light', lighten($header_bg, 6%), lighten($header_bg, 5%));
+$header_bg_backdrop: $header_bg;
 $header_border: if($header == 'light', darken($header_bg, 7%), darken($header_bg, 4%));
 $header_fg: if($header =='light', $fg_color, mix($selected_bg_color, #cecece, 5%));
 

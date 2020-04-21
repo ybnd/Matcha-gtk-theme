@@ -1588,7 +1588,7 @@ headerbar {
 headerbar:backdrop {
   transition: 200ms ease-out;
   color: rgba(208, 200, 200, 0.7);
-  background-color: #2b383b;
+  background-color: #212a2c;
 }
 
 headerbar .title {
@@ -1642,7 +1642,7 @@ headerbar.selection-mode .selection-menu .arrow {
 }
 
 .maximized headerbar:backdrop {
-  background-color: #2b383b;
+  background-color: #212a2c;
 }
 
 headerbar.default-decoration {
@@ -2227,7 +2227,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
 
 .titlebar:not(headerbar) > separator:backdrop {
   transition: 200ms ease-out;
-  background-image: linear-gradient(to bottom, #2b383b, #2b383b);
+  background-image: linear-gradient(to bottom, #212a2c, #212a2c);
   box-shadow: none;
 }
 
@@ -9900,7 +9900,7 @@ filechooser placessidebar.sidebar scrollbar trough,
 @define-color wm_title alpha(#d0c8c8, 0.8);
 @define-color wm_unfocused_title alpha(#d0c8c8, 0.5);
 @define-color wm_bg #212a2c;
-@define-color wm_bg_unfocused #2b383b;
+@define-color wm_bg_unfocused #212a2c;
 @define-color wm_highlight #273235;
 @define-color wm_shadow alpha(#2d2d2d, 0.35);
 @define-color wm_button_close_bg #cc575d;

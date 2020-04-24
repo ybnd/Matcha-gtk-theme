@@ -1,5 +1,5 @@
 gtk-color-scheme = "base_color: #273235"
-gtk-color-scheme = "text_color: #eeeeee"
+gtk-color-scheme = "text_color: #ccd7d4"
 gtk-color-scheme = "bg_color: #273235"
 gtk-color-scheme = "fg_color: #f0f0f0"
 gtk-color-scheme = "titlebar_bg_color: #273235"

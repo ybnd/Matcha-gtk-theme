@@ -3797,7 +3797,7 @@ scrolledwindow overshoot.right {
 
 scrolledwindow undershoot.top {
   background-color: transparent;
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.2) 50%, rgba(45, 45, 45, 0.2) 50%);
+  background-image: none;
   padding-top: 1px;
   background-size: 10px 1px;
   background-repeat: repeat-x;
@@ -3808,7 +3808,7 @@ scrolledwindow undershoot.top {
 
 scrolledwindow undershoot.bottom {
   background-color: transparent;
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.2) 50%, rgba(45, 45, 45, 0.2) 50%);
+  background-image: none;
   padding-bottom: 1px;
   background-size: 10px 1px;
   background-repeat: repeat-x;
@@ -3819,7 +3819,7 @@ scrolledwindow undershoot.bottom {
 
 scrolledwindow undershoot.left {
   background-color: transparent;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2) 50%, rgba(45, 45, 45, 0.2) 50%);
+  background-image: none;
   padding-left: 1px;
   background-size: 1px 10px;
   background-repeat: repeat-y;
@@ -3830,7 +3830,7 @@ scrolledwindow undershoot.left {
 
 scrolledwindow undershoot.right {
   background-color: transparent;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2) 50%, rgba(45, 45, 45, 0.2) 50%);
+  background-image: none;
   padding-right: 1px;
   background-size: 1px 10px;
   background-repeat: repeat-y;
@@ -9914,7 +9914,7 @@ filechooser placessidebar.sidebar scrollbar trough,
 @define-color wm_button_hover_border #e0e0e0;
 @define-color wm_icon_bg #909090;
 @define-color wm_icon_unfocused_bg #686868;
-@define-color wm_icon_hover_bg #eeeeee;
+@define-color wm_icon_hover_bg #ccd7d4;
 @define-color wm_icon_active_bg #ffffff;
 @define-color budgie_tasklist_indicator_color #3498db;
 @define-color budgie_tasklist_indicator_color_active #3498db;

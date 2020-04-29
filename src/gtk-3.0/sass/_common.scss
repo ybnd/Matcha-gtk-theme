@@ -3299,7 +3299,7 @@ colorswatch {
   // border rounding
   &.top {
     border-top-left-radius: $_colorswatch-radius + 0.5px;
-    border-top-right-radius: $_colorswatch-radius + 0.5;
+    border-top-right-radius: $_colorswatch-radius + 0.5px;
 
     overlay {
       border-top-left-radius: $_colorswatch-radius;
@@ -3308,7 +3308,7 @@ colorswatch {
   }
   &.bottom {
     border-bottom-left-radius: $_colorswatch-radius + 0.5px;
-    border-bottom-right-radius: $_colorswatch-radius + 0.5;
+    border-bottom-right-radius: $_colorswatch-radius + 0.5px;
 
     overlay {
       border-bottom-left-radius: $_colorswatch-radius;

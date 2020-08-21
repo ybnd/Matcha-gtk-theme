@@ -3541,7 +3541,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #dashtodockContainer.opaque #dash {
-  background-color: #222222;
+  background-color: #273235;
 }
 
 #dashtodockContainer.transparent #dash {
@@ -3558,7 +3558,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #dashtodockContainer.extended:overview #dash, #dashtodockContainer.opaque.extended:overview #dash, #dashtodockContainer.transparent.extended:overview #dash {
-  background-color: #222222;
+  background-color: #273235;
 }
 
 #dashtodockContainer .app-well-app .overview-icon,
@@ -3580,7 +3580,7 @@ StWidget.focused .app-well-app-running-dot {
   padding: 0 16px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.6375);
-  background-color: #222222;
+  background-color: #273235;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: none;
   text-shadow: none;
@@ -3605,7 +3605,7 @@ StWidget.focused .app-well-app-running-dot {
 
 .openweather-provider:active {
   color: rgba(255, 255, 255, 0.85);
-  background-color: rgba(87, 87, 87, 0.955);
+  background-color: rgba(91, 99, 102, 0.955);
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: none;
   text-shadow: none;

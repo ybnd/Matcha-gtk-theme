@@ -3549,7 +3549,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #dashtodockContainer.opaque #dash {
-  background-color: #1b1d24;
+  background-color: #273235;
 }
 
 #dashtodockContainer.transparent #dash {
@@ -3566,7 +3566,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #dashtodockContainer.extended:overview #dash, #dashtodockContainer.opaque.extended:overview #dash, #dashtodockContainer.transparent.extended:overview #dash {
-  background-color: #1b1d24;
+  background-color: #273235;
 }
 
 #dashtodockContainer .app-well-app .overview-icon,

@@ -1772,7 +1772,7 @@ window.thunar toolbar#location-toolbar button:disabled:active, window.thunar #lo
   margin-left: 1px;
 }
 
-window.thunar toolbar#location-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button, window.thunar #location-toolbar.inline-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button, .nemo-window .primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button, headerbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button {
+window.thunar toolbar#location-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button, window.thunar #location-toolbar.inline-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button, .caja-navigation-window toolbar#Toolbar.primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button, .caja-navigation-window #Toolbar.primary-toolbar.inline-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button, .nemo-window .primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button, headerbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button {
   border-radius: 0;
   border-style: solid;
   border-width: 1px;
@@ -1785,7 +1785,7 @@ window.thunar toolbar#location-toolbar .linked:not(.vertical):not(.path-bar):not
   border-color: transparent;
 }
 
-window.thunar toolbar#location-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:hover, window.thunar #location-toolbar.inline-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:hover, .nemo-window .primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:hover, headerbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:hover, window.thunar toolbar#location-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:active, window.thunar #location-toolbar.inline-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:active, .nemo-window .primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:active, headerbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:active {
+window.thunar toolbar#location-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:hover, window.thunar #location-toolbar.inline-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:hover, .caja-navigation-window toolbar#Toolbar.primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:hover, .caja-navigation-window #Toolbar.primary-toolbar.inline-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:hover, .nemo-window .primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:hover, headerbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:hover, window.thunar toolbar#location-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:active, window.thunar #location-toolbar.inline-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:active, .caja-navigation-window toolbar#Toolbar.primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:active, .caja-navigation-window #Toolbar.primary-toolbar.inline-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:active, .nemo-window .primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:active, headerbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > button:last-child:active {
   border-color: rgba(45, 45, 45, 0.15);
 }
 
@@ -7257,7 +7257,7 @@ PanelToplevel.mate-panel-menu-bar > grid.horizontal > button:not(:first-child):d
   background-color: #f7f7f7;
 }
 
-.mate-panel-applet-slider > frame > border {
+.mate-panel-applet-slider frame > border {
   border: unset;
 }
 
@@ -8839,7 +8839,7 @@ XfdesktopIconView.view:active, XfdesktopIconView.view:checked {
   text-shadow: none;
 }
 
-window#whiskermenu-window scrolledwindow scrollbar {
+window#whiskermenu-window > frame > stack scrolledwindow scrollbar {
   background-color: rgba(45, 45, 45, 0.15);
   border-color: #232c2f;
 }
@@ -8865,7 +8865,7 @@ window#whiskermenu-window > frame > stack scrolledwindow scrollbar slider:disabl
   background-color: transparent;
 }
 
-window#whiskermenu-window scrolledwindow scrollbar trough {
+window#whiskermenu-window > frame > stack scrolledwindow scrollbar trough {
   background-color: rgba(45, 45, 45, 0.08);
 }
 
@@ -8908,7 +8908,7 @@ window#whiskermenu-window > frame > stack entry {
   border-color: rgba(45, 45, 45, 0.2);
 }
 
-window#whiskermenu-window entry image {
+window#whiskermenu-window > frame > stack entry image {
   color: #a6aead;
 }
 
@@ -8930,12 +8930,12 @@ window#whiskermenu-window > frame > stack entry:disabled image {
   color: rgba(198, 205, 203, 0.45);
 }
 
-window#whiskermenu-window scrolledwindow .view {
+window#whiskermenu-window > frame > stack scrolledwindow .view {
   background-color: rgba(50, 64, 68, 0.9);
   color: #c6cdcb;
 }
 
-window#whiskermenu-window scrolledwindow .view:selected:hover {
+window#whiskermenu-window > frame > stack scrolledwindow .view:selected:hover {
   background-color: #3d4e52;
   color: #c6cdcb;
 }

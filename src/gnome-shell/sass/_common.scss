@@ -702,6 +702,7 @@ StScrollBar {
   min-width: 15em;
   color: $fg_color;
   border-image: url("assets/menu.svg") 18 18 18 18;
+  box-shadow: none;
 
   // .popup-menu-arrow { } //defined globally in the TOP BAR
 
@@ -720,28 +721,17 @@ StScrollBar {
     padding: 6px;
     transition-duration: 0s;
 
-    &:ltr { padding-right:1.75em; padding-left: 0; }
-    &:rtl { padding-right: 0; padding-left:1.75em; }
+    &:ltr { padding-right: 1.75em; padding-left: 0; }
+    &:rtl { padding-right: 0; padding-left: 1.75em; }
 
     &:checked {
       font-weight: normal;
       background: none;
       box-shadow: none;
       border-image: url("assets/submenu-open.svg") 18 18 2 2;
-
-      &:active, &.selected {
-        color: $selected_fg_color;
-        background-color: transparent;
-        border-image: url("assets/menu-hover.svg") 18 18 2 2;
-      }
-
-      &:insensitive {
-        color: $insensitive_selected_fg_color;
-        background: none;
-      }
     }
 
-    &:hover, &:active, &.selected {
+    &:active, &.selected {
       color: $selected_fg_color;
       background-color: transparent;
       border-image: url("assets/menu-hover.svg") 18 18 2 2;
@@ -753,7 +743,7 @@ StScrollBar {
   .popup-inactive-menu-item { //all icons and other graphical elements
     color: $fg_color;
 
-    &:insensitive { color: $tertiary_fg_color; }
+    &:insensitive { color: $insensitive_fg_color; }
   }
 
   //.popup-status-menu-item { font-weight: normal;  color: pink; } //dunno what that is
@@ -788,8 +778,8 @@ StScrollBar {
   -arrow-background-color: transparent;
   -arrow-border-width: 1px;
   -arrow-border-color: transparent;
-  -arrow-base: 0;
-  -arrow-rise: 0;
+  -arrow-base: 5px;
+  -arrow-rise: 5px;
   border: 0 none transparent;
   background: transparent; // needs to reset?
   color: $fg_color;
@@ -922,18 +912,19 @@ StScrollBar {
   min-height: 64px;
 
   .osd-monitor-label { @include font(display-2); }
+
   .level {
-    height: 0.6em;
-    border-radius: 4px;
+    height: 4px;
+    border-radius: 3px;
     background-color: $track_color;
-    color: $fg_color;
+    color: $selected_bg_color;
 
     // For >= 3.29.90
     -barlevel-height: 3px;
     // FIXME: above 'background-color' property rendered correct trough
     // colour already, so keep -background-color style-property transparent
-    -barlevel-background-color: transparent;
-    -barlevel-active-background-color: $success_color;
+    -barlevel-background-color: rgba(black, 0.15);
+    -barlevel-active-background-color: $selected_bg_color;
     -barlevel-overdrive-color: $destructive_color;
     -barlevel-overdrive-separator-width: 3px;
     -barlevel-border-width: 0;
@@ -1242,16 +1233,21 @@ StScrollBar {
   box-shadow: none;
   background: none;
   color: $secondary_fg_color;
+  text-shadow: none;
 
-  &:hover,&:focus { color: $fg_color; background-color: $semi_track_color; }
+  &:hover, &:focus {
+    color: $fg_color;
+    background-color: $semi_track_color;
+    text-shadow: none;
+  }
+
   &:active {
     color: $fg_color;
     background-color: $track_color;
   }
 }
 
-.datemenu-today-button .day-label {
-}
+// .datemenu-today-button .day-label { }
 
 .datemenu-today-button .date-label {
   @include font(headline);
@@ -1290,6 +1286,24 @@ StScrollBar {
 .world-clocks-grid {
   spacing-rows: 0.4em;
   spacing-columns: 0.8em;
+}
+
+.world-clocks-city {
+  color: $tertiary_fg_color;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.world-clocks-time {
+  color: $tertiary_fg_color;
+  font-feature-settings: "tnum";
+  font-size: 1.2em;
+}
+
+.world-clocks-timezone {
+  color: $tertiary_fg_color;
+  font-feature-settings: "tnum";
+  font-size: 0.9em;
 }
 
 .calendar-month-label {
@@ -1872,6 +1886,7 @@ StScrollBar {
 
 %search-section-content-item {
   @extend %icon_tile;
+  transition-duration: 0ms;
 
   &:focus,
   &:hover,
@@ -2017,9 +2032,15 @@ StScrollBar {
 }
 
 .app-well-app-running-dot { //running apps indicator
-  width: 24px; height: 2px;
-  background-color: $selected_bg_color;
+  width: 16px; height: 2px;
+  background-color: $selected_track_color;
   margin-bottom: 0;
+  border-radius: 0;
+}
+
+StWidget.focused .app-well-app-running-dot {
+  width: 24px;
+  background-color: $selected_bg_color;
 }
 
 %icon_tile {
@@ -2027,7 +2048,7 @@ StScrollBar {
   border-radius: 0;
   padding: 6px;
   border: none;
-  transition-duration: 0.2s;
+  transition-duration: 100ms;
   text-align: center;
 }
 
@@ -2182,14 +2203,6 @@ StScrollBar {
   border-left-width: 2px;
   padding: 6px;
   border-radius: 0;
-}
-
-//Some hacks I don't even
-.search-display > StBoxLayout,
-.all-apps,
-.frequent-apps > StBoxLayout {
-  // horizontal padding to make sure scrollbars or dash don't overlap content
-  padding: 0px 88px 10px 88px;
 }
 
 %overview-panel {
